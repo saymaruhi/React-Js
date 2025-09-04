@@ -1,4 +1,5 @@
 import React from 'react'
+import NumTest1 from './numTest1.jsx';
 
 function Num() {
 const numbers= Array.from({length:10}, (_,i)=>i);
@@ -13,6 +14,8 @@ console.log(numbers)
             <li key= {num}>number= {num}</li>
         ))}
      </ul>
+
+     <NumTest1/>
     </div>
   )
 }

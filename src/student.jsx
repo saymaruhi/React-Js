@@ -51,8 +51,8 @@ else if (score >=0 && score <= 39){
 
   return (
     <div>
-      <h5>Question: 2 </h5>
-       <p> Give grades to student according to scores.</p>
+      <h5>Question: 2 Student file </h5>
+       <p style={{color: "blue"}}> Give grades to student according to scores.</p>
        <h4> 90-100 A,
         70-80 B,
         60-69 C, 
