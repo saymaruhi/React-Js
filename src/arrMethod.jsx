@@ -12,7 +12,7 @@ function ArrMethod() {
   const [addName, setAddName] = useState("");
 
   const AddCompany = () => {
-    if (addName.trim() !== "") {
+    if (addName.trim() !== "") { //if condition is use for if click on add button it will not store empty //
       setArray([...array, addName]);
       setAddName("");
     }
