@@ -4,6 +4,7 @@ import React from 'react'
 import { useState } from 'react'
 import Appp from './student'
 import Num from './num'
+import ArrMethod from './arrMethod'
 
 
 function App(){
@@ -35,6 +36,7 @@ else{
 
 <Appp/>
 <Num/>
+<ArrMethod />
     </div>
   )
 }

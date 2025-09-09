@@ -2,7 +2,7 @@ import { useState } from "react"
 
 function NumTest1(){
 
-    const gameNumber= 7;
+    const gameNumber= 700;
     const [guess,setGuess]= useState("")
     const [message, setMessage]= useState("")
 
@@ -11,11 +11,16 @@ function NumTest1(){
             setMessage("Enter Number")
         }
 else if (parseInt(guess) === gameNumber){
-   setMessage("Congrats, You enter wright num.")
-} else {
-    setMessage("Try Again")
+   setMessage("Congrats, You enter right num.")
+} else if (guess != gameNumber){
+    setMessage ("Number is >1 and <10")
 }
+else  {
+    setMessage("Try Again")
+    
+
     }
+}
     
     
 
